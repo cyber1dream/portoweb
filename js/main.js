@@ -1,9 +1,8 @@
 (function ($) {
     "use strict";
-
     // Dynamic Icon
 
-    var faviconImages = ["/img/favicon.ico", "/img/faviconcx.ico", "/img/faviconcx2.ico", "/img/favicon1.ico"]; // Array of favicon image paths
+    var faviconImages = ["/img/favicon.ico","/img/faviconcx.ico","/img/faviconcx2.ico"]; // Array of favicon image paths
     var currentFaviconIndex = 0; // Index to track the current favicon image
 
     function changeFaviconAutomatically() {
@@ -11,6 +10,7 @@
     favicon.href = faviconImages[currentFaviconIndex];
     currentFaviconIndex = (currentFaviconIndex + 1) % faviconImages.length; // Cycle through the images
     }
+
 
     // Set an interval to change the favicon automatically every few seconds (e.g., 5 seconds)
     var interval = setInterval(changeFaviconAutomatically, 500); // Change every 5 seconds
