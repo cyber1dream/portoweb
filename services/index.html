@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Careers - CyberXield</title>
+    <title>Services - CyberXield</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
     <link id="dynamic-favicon" rel="icon" href="/img/favicon.ico" type="image/x-icon">
-
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,14 +23,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
@@ -102,13 +101,13 @@
                     <div class="navbar-nav ms-auto mx-xl-auto p-0">
                         <a href="/" class="nav-item nav-link">Home</a>
                         <a href="/about.html" class="nav-item nav-link">About</a>
-                        <a href="/service.html" class="nav-item nav-link">Services</a>
+                        <a href="/services" class="nav-item nav-link active text-secondary">Services</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Resources</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
                             <div class="dropdown-menu rounded">
                                 <a href="/blog.html" class="dropdown-item">Our Blogs</a>
                                 <a href="/trainings.html" class="dropdown-item">Our Trainings</a>
-                                <a href="/career.html" class="dropdown-item active">Careers</a>
+                                <a href="/career.html" class="dropdown-item">Careers</a>
                             </div>
                         </div>
                         <a href="/contact.html" class="nav-item nav-link">Contact</a>
@@ -139,41 +138,59 @@
     <div class="container-fluid page-header py-5">
         <div class="container text-center py-5">
             <h1 class="display-2 text-white mb-4 animated slideInDown text-rainbow-animation"
-                style="font-family: Orbitron;">Careers</h1>
+                style="font-family: Orbitron;">Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a href="/">Home</a></li>
-                    <li class="breadcrumb-item" aria-current="page">Resources</li>
-                    <li class="breadcrumb-item" aria-current="page">Careers</li>
+                    <!--
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                        <li class="breadcrumb-item" aria-current="page">Services</li>
+                      -->
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-    <!-- Trainings Start -->
-    <div class="container-fluid services py-5 mb-5" id="training">
+    <!-- Services Start -->
+    <div class="container-fluid services py-5 mb-5" id="service">
         <div class="container">
-            <!--   <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                    <h5 class="text-primary">Our Training Programs</h5>
-                    <h1>Trainings For Students & Corporate Employees</h1>
-                </div>
-               -->
+            <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h5 class="text-primary">Our Services</h5>
+                <h1>Services Built Specifically For Your Business</h1>
+            </div>
             <div class="row g-5 services-inner">
                 <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
                     <div class="services-item bg-light">
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
-                                <i class="fas fa-user-ninja fa-7x mb-4 text-primary"></i>
-                                <h4 class="mb-3">INTERNSHIPS</h4>
-                                <p class="mb-4">Express your enthusiasm for delving into the intriguing realm of
-                                    cybersecurity and ethical hacking through immersive, hands-on internship experience.
-                                    Your gateway to this exciting journey is our internship program, meticulously
-                                    crafted to furnish you with a robust foundational understanding and
-                                    organizational-level expertise across pivotal domains. Click here to discover more
-                                    about this transformative opportunity.</p><br>
-                                <a href="internships.html"
+                                <i class="fas fa-shield-alt fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Web Application<br>Penetration Testing</h4>
+                                <p class="mb-4">Our rigorous approach to web application penetration testing surpasses
+                                    industry standards like OWASP Top 10. We delve deep into your application's
+                                    intricacies, studying architecture and employing cutting-edge research to uncover
+                                    even the most elusive vulnerabilities. Protect your digital assets with our
+                                    comprehensive security assessment. </p><br>
+                                <br><br><a href="/services/web-app-pentest/"
                                     class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know More</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-network-wired fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Network/IT Infrastructure<br>Penetration Testing</h4>
+                                <p class="mb-4">Our advanced Network/IT Infrastructure Security Assessment delves deeper
+                                    than traditional methods, uncovering vulnerabilities and their business implications
+                                    across all network facets. From external to internal and wireless environments, our
+                                    comprehensive audit ensures thorough identification and mitigation of security
+                                    risks, fortifying your organization's IT infrastructure against threats.</p><br>
+                                <a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
                             </div>
                         </div>
                     </div>
@@ -182,15 +199,33 @@
                     <div class="services-item bg-light">
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
-                                <i class="fa fa-user-tie fa-7x mb-4 text-primary"></i>
-                                <h4 class="mb-3">JOBS</h4>
-                                <p class="mb-4">Join us for exciting career opportunities in cybersecurity. As a leading
-                                    innovator, we offer a dynamic, collaborative environment for professionals at all
-                                    levels. Embrace the chance to defend against cyber threats, contribute to
-                                    cutting-edge solutions, and shape the future of cybersecurity. We value diversity,
-                                    creativity, and excellence, fostering continuous learning and innovation. Explore
-                                    our current job openings and become a key player in securing our digital future.</p>
-                                <a href="jobs.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                <i class="fa fa-mobile fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Mobile App (Android / iOS)<br>Penetration Testing</h4>
+                                <p class="mb-4">Step into the realm of comprehensive mobile app security with our
+                                    professional penetration testing service. Extending beyond OWASP standards, we
+                                    meticulously probe your app's code, unveiling nuanced vulnerabilities often
+                                    overlooked. From inadvertent data exposures to authentication loopholes, our
+                                    tailored assessment fortifies your app, ensuring resilient defense against malicious
+                                    exploitation.</p>
+                                <br><a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".5s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-user-secret fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Social Engineering<br>Security Assessment</h4>
+                                <p class="mb-4">Optimize your organizational resilience through our professional social
+                                    engineering assessments. We meticulously evaluate employee adherence to security
+                                    protocols, pinpointing vulnerabilities for strategic enhancement. Our findings
+                                    seamlessly integrate into ongoing awareness initiatives, empowering your workforce
+                                    to combat social engineering threats effectively and safeguard organizational
+                                    integrity.</p>
+                                <br><a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
                                     More</a>
                             </div>
                         </div>
@@ -200,15 +235,80 @@
                     <div class="services-item bg-light">
                         <div class="p-4 text-center services-content">
                             <div class="services-content-icon">
-                                <i class="fa fa-university fa-7x mb-4 text-primary"></i>
-                                <h4 class="mb-3">TRAININGS</h4>
-                                <p class="mb-4">In this course, you'll embark on a journey guided by our expert mentor &
-                                    founder, <a href="https://iehdreamer.in/">MR. RAJNISH KUMAR</a>, who possesses a
-                                    wealth of knowledge and experience in the cybersecurity and ethical hacking domains.
-                                    The curriculum is crafted to take you from a beginner's level to an advanced
-                                    understanding, equipping you with the skills and knowledge necessary to excel in
-                                    this dynamic field.</p><br>
-                                <a href="trainings.html"
+                                <i class="fas fa-file-code fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Secure Code Review</h4>
+                                <p class="mb-4">Source Code Review ensures security and adherence to coding standards.
+                                    As networks strengthen, web app vulnerabilities draw attackers' attention. Shield
+                                    your assets with thorough security. Regular penetration testing and in-depth code
+                                    reviews are vital. Our approach blends automated scans and manual checks for
+                                    comprehensive coverage, ensuring resilience. Source Code Review ensures security and
+                                    adherence to coding standards.</p>
+                                <br><a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-cloud fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Cloud Security Assessments</h4>
+                                <p class="mb-4">Experience peace of mind with our comprehensive cloud security
+                                    assessment service. Our experts meticulously scrutinize your cloud infrastructure,
+                                    identifying vulnerabilities and ensuring adherence to regulatory standards. Through
+                                    detailed analysis and rigorous testing, we fortify your cloud environment,
+                                    safeguarding sensitive data from potential breaches. Partner with us to proactively
+                                    mitigate risks & ensure robust cloud security.</p><br>
+                                <a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-window-maximize fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Incident Response</h4>
+                                <p class="mb-4">We specializes in Incident Response, delivering rapid and effective
+                                    strategies to mitigate the impact of security incidents. Our focus is on minimizing
+                                    downtime, ensuring your organization's resilience in the face of evolving threats.
+                                </p><br>
+                                <a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fas fa-microchip fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Digital Forensics</h4>
+                                <p class="mb-4">Our experts employ meticulous techniques to uncover and analyze digital
+                                    evidence, providing essential insights to secure your organization against cyber
+                                    threats. Trust CyberXield for precise, thorough, and proactive digital
+                                    investigations.</p><br>
+                                <a href="/402.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know
+                                    More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay=".3s">
+                    <div class="services-item bg-light">
+                        <div class="p-4 text-center services-content">
+                            <div class="services-content-icon">
+                                <i class="fa fa-book fa-7x mb-4 text-primary"></i>
+                                <h4 class="mb-3">Corporate Security &<br>Awareness Trainings</h4>
+                                <p class="mb-4">Equip your team with comprehensive security awareness training. Our
+                                    program covers cyber threats and best practices, fostering a vigilant culture to
+                                    protect your organization's assets effectively.</p>
+                                <a href="/trainings.html"
                                     class="btn btn-secondary text-white px-5 py-3 rounded-pill">Know More</a>
                             </div>
                         </div>
@@ -217,21 +317,21 @@
             </div>
         </div>
     </div>
-    <!-- Trainings End -->
+    <!-- Services End -->
 
-    <!--Updates-->
-    <div class="container-fluid pb-5 mb-5 team" id="registration">
+    <!--Contact Us-->
+    <div class="container-fluid pb-5 mb-5 team" id="moredetails">
         <div class="container pb-5">
             <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
-                <h1 class="text-primary">CAREER UPDATES!</h1>
-                <!--<h1 class="d-block"><span style="color: red;font-family: 'Orbitron', sans-serif;">Cyber</span><span style="color: blue;">Xield</span>'s</h1><br>-->
-                <div class="relue" style="font-size: large;font-family: 'Orbitron', sans-serif;font-weight: 900;">
-                    GET YOUR MUGS READY!🍵<br>A BREWING CAREER OPPORTUNITY IS COMING!✨<br>
-                </div>
+                <hr>
+                <h5 class="text-primary">Somebody Hacked You?</h5>
+                <h1 class="d-block">Speak To Our Security Experts</h1>
+                <a href="/contact.html" class="btn btn-secondary text-white px-5 py-3 rounded-pill"><b>Contact Us</b></a>
+                <hr>
             </div>
         </div>
     </div>
-    <!--Updates END-->
+    <!--Contact Us-->
 
     <!-- Footer Start -->
     <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
@@ -326,6 +426,7 @@
     <!-- Footer End -->
 
 
+
     <!-- Back to Top -->
     <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i
             class="fa fa-arrow-up text-white"></i></a>
@@ -334,13 +435,13 @@
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/lib/wow/wow.min.js"></script>
+    <script src="/lib/easing/easing.min.js"></script>
+    <script src="/lib/waypoints/waypoints.min.js"></script>
+    <script src="/lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
