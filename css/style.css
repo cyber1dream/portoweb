@@ -705,3 +705,30 @@
 }
 
 /*** Footer End ***/
+/* Define styles for the table */
+table {
+    width: 100%; /* Adjust width as needed */
+    border-collapse: collapse;
+    margin: 20px auto; /* Centering the table */
+}
+th, td {
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+th {
+    background-color: black;
+}
+.myth {
+    color: red;
+    font-weight: bold;
+}
+.fact {
+    color: white;
+    font-weight: bold;
+}
+.odd {
+    background-color: black; /* Light Red */
+}
+.even {
+    background-color: black; /* Light Blue */
+}
